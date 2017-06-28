@@ -28,29 +28,29 @@ Zweite Zahl <br>
 	echo "{$_POST['operator']}";
 	echo "{$_POST['zweite_zahl']}";
 	echo "=";
-/*
-	if ("{$_POST['operator']}" == "+" )
+
+	if ("{$_POST['operator']}" === "+" )
 	{
-		echo"{$_POST['erste_zahl']}" + "{$_POST['zweite_zahl']}"
+		echo "{$_POST['erste_zahl']}" + "{$_POST['zweite_zahl']}";
 	}
-	else if ("{$_POST['operator']}" == "-" )
+	else if ("{$_POST['operator']}" === "-" )
 	{
-		echo "{$_POST['erste_zahl']}" - "{$_POST['zweite_zahl']}"
+		echo "{$_POST['erste_zahl']}" - "{$_POST['zweite_zahl']}";
 	}
-	else if ("{$_POST['operator']}" == "*" )
+	else if ("{$_POST['operator']}" === "*" )
 	{
-		echo "{$_POST['erste_zahl']}" * "{$_POST['zweite_zahl']}"
+		echo "{$_POST['erste_zahl']}" * "{$_POST['zweite_zahl']}";
 	}
-	else if ("{$_POST['operator']}" == "/" )
+	else if ("{$_POST['operator']}" === "/" )
 	{
-		echo "{$_POST['erste_zahl']}" / "{$_POST['zweite_zahl']}"
+		echo "{$_POST['erste_zahl']}" / "{$_POST['zweite_zahl']}";
 	}
 	else
 	{
-		echo "Bitte mache mal ein paar Angaben"
+		echo "Bitte mache mal ein paar Angaben";
 	}	
 
-*/
+
 ?>
 
 
