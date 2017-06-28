@@ -29,6 +29,30 @@ Zweite Zahl <br>
 	echo "{$_POST['zweite_zahl']}";
 	echo "=";
 
+	switch ("{$_POST['operator']}") {
+		case "+":
+			echo "{$_POST['erste_zahl']}" + "{$_POST['zweite_zahl']}";
+			break;
+		case "-":
+			echo "{$_POST['erste_zahl']}" - "{$_POST['zweite_zahl']}";
+			break;
+		case "*":
+			echo "{$_POST['erste_zahl']}" * "{$_POST['zweite_zahl']}";
+			break;
+		case "/":
+			echo "{$_POST['erste_zahl']}" / "{$_POST['zweite_zahl']}";
+			break;
+		default:
+			echo "Bitte mache mal ein paar Angaben";
+			break;
+	}
+
+
+
+
+
+
+/*
 	if ("{$_POST['operator']}" === "+" )
 	{
 		echo "{$_POST['erste_zahl']}" + "{$_POST['zweite_zahl']}";
@@ -49,7 +73,7 @@ Zweite Zahl <br>
 	{
 		echo "Bitte mache mal ein paar Angaben";
 	}	
-
+*/
 
 ?>
 
